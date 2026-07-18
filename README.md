@@ -191,9 +191,7 @@ dotnet build
 Pass the input and output CSV paths as command-line arguments. On Windows, absolute paths can also be used:
 
 ```powershell
-dotnet run -- `
-  "D:\GitHub\dc-csharp-example\data\in\EpochPhotometry.csv" `
-  "D:\GitHub\dc-csharp-example\data\out\EpochPhotometryChanges.csv"
+dotnet run -- "D:\GitHub\dc-csharp-example\data\in\EpochPhotometry.csv" "D:\GitHub\dc-csharp-example\data\out\EpochPhotometryChanges.csv"
 ```
 
 When paths are omitted, the application uses:
