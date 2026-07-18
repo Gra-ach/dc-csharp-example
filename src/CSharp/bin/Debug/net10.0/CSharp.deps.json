@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CSharp/1.0.0": {
+        "dependencies": {
+          "CsvHelper": "33.1.0",
+          "InterSystems.Data.IRISClient": "2.7.0",
+          "InterSystems.Data.XEP": "2.5.0"
+        },
+        "runtime": {
+          "CSharp.dll": {}
+        }
+      },
+      "CsvHelper/33.1.0": {
+        "runtime": {
+          "lib/net9.0/CsvHelper.dll": {
+            "assemblyVersion": "33.0.0.0",
+            "fileVersion": "33.1.0.26"
+          }
+        }
+      },
+      "InterSystems.Data.IRISClient/2.7.0": {
+        "runtime": {
+          "lib/net10.0/InterSystems.Data.IRISClient.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "InterSystems.Data.XEP/2.5.0": {
+        "dependencies": {
+          "InterSystems.Data.IRISClient": "2.7.0"
+        },
+        "runtime": {
+          "lib/net10.0/InterSystems.Data.XEP.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CsvHelper/33.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kqfTOZGrn7NarNeXgjh86JcpTHUoeQDMB8t9NVa/ZtlSYiV1rxfRnQ49WaJsob4AiGrbK0XDzpyKkBwai4F8eg==",
+      "path": "csvhelper/33.1.0",
+      "hashPath": "csvhelper.33.1.0.nupkg.sha512"
+    },
+    "InterSystems.Data.IRISClient/2.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xyEt+kEUmiqwMVuOUDZOIAJVYlMbZ/6dGDQ3/cME2Y/pyF8F0A+ficRMM1U8hlXYxaC+HIlQQRkwLRGHIBVwbQ==",
+      "path": "intersystems.data.irisclient/2.7.0",
+      "hashPath": "intersystems.data.irisclient.2.7.0.nupkg.sha512"
+    },
+    "InterSystems.Data.XEP/2.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zVXZUp8FI9eXdD8FWnKL0YttixG39+ytrwo8dSkXF8NIYNvexwkPn9ov+XnwKZ5z/Ws1HO1c0fC2GY0T1dKXqg==",
+      "path": "intersystems.data.xep/2.5.0",
+      "hashPath": "intersystems.data.xep.2.5.0.nupkg.sha512"
+    }
+  }
+}
